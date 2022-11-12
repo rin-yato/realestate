@@ -18,7 +18,8 @@
     "framer-motion": "^7.6.5",
     "next": "13.0.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-map-gl": "^7.0.19"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
