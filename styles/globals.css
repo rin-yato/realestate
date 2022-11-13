@@ -37,3 +37,8 @@ a {
 .no-scroll::-webkit-scrollbar {
   display: none;
 }
+
+.mapboxgl-popup-content {
+  padding: 0 !important;
+  border-radius: 1rem !important;
+}

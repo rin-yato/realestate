@@ -5,7 +5,7 @@ import ShowerRoundedIcon from "@mui/icons-material/ShowerRounded";
 import StraightenRoundedIcon from "@mui/icons-material/StraightenRounded";
 import YatoButton from "../RinYato/YatoButton";
 
-function PropertyCard() {
+function PropertyCard({children}) {
   return (
     <div className="rounded-2xl shadow-xl overflow-hidden flex flex-col w-full h-full">
       <div className="rounded-2xl overflow-hidden w-full">
@@ -13,14 +13,16 @@ function PropertyCard() {
           <Image
             src={"/Property/1.jpeg"}
             alt="PropertyPic"
-            quality={100}
+            quality={75}
+            sizes="fit-content"
             fill
+            priority
             className="object-cover"
           />
         </div>
       </div>
       <div className="row-span-4 p-4 flex flex-col gap-3">
-        <p className="font-semibold m-0">$ 445,500</p>
+        <p className="font-semibold m-0 text-base">$ 445,500</p>
         <p className="text-xs text-gray-400 m-0">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam
           accusantium
@@ -36,6 +38,7 @@ function PropertyCard() {
             <StraightenRoundedIcon className="text-green-500 text-base" /> 40x40
           </YatoButton>
         </div>
+        {children}
       </div>
     </div>
   );
