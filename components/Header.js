@@ -1,6 +1,5 @@
-import { Link } from "@mui/material";
+import Link from "next/link";
 import React from "react";
-import Select from "../RinYato/YatoSelect";
 
 function Header() {
   return (

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import YatoButton from "../RinYato/YatoButton";
+import DemoPropertyCard from "./DemoPropertyCard";
 import PropertyTypeCard from "./Home/PropertyTypeCard";
 
 function HomeHero() {
@@ -17,13 +18,13 @@ function HomeHero() {
             className="object-cover"
           />
         </div>
-        <div className="absolute top-full left-1/2 -translate-x-1/2 -translate-y-1/2">
+        {/* <div className="absolute top-full left-1/2 -translate-x-1/2 -translate-y-1/2">
           <div className="flex p-1.5 gap-1.5">
             <div className="bg-sky-500 select-none duration-300 cursor-pointer active:scale-95 hover:scale-105 text-white py-4 px-8 rounded-full text-2xl shadow-xl font-bold tracking-wide">
               FIND YOUR DREAM HOME NOW
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       <section className="mt-20 pt-20">
         <div className="px-16">
@@ -102,6 +103,30 @@ function HomeHero() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="mt-20 pt-20">
+        <div className="px-16">
+          <h2 className="text-3xl font-semibold">
+            Featured Properties 
+          </h2>
+          <div className="grid grid-cols-3 mt-10 gap-16">
+            <DemoPropertyCard />
+            <DemoPropertyCard />
+            <DemoPropertyCard />
+          </div>
+        </div>
+      </section>
+      <section className="mt-20 pt-20">
+        <div className="px-16">
+          <h2 className="text-3xl font-semibold">
+            New Listing Properties 
+          </h2>
+          <div className="grid grid-cols-3 mt-10 gap-16">
+            <DemoPropertyCard />
+            <DemoPropertyCard />
+            <DemoPropertyCard />
           </div>
         </div>
       </section>
