@@ -6,16 +6,18 @@ function Header() {
   return (
     <div className="grid grid-cols-3 py-5 px-10">
       <div className="font-bold text-2xl">Real Estate</div>
-      <ul className="flex gap-16 justify-center items-center font-semibold">
-        <li className=" cursor-pointer">
-          <Link href="/" className=" text-black no-underline">Home</Link>
-        </li>
-        <li className=" cursor-pointer">
-          <Link href="/search" className=" text-black no-underline">Search</Link>
-        </li>
-        <li className=" cursor-pointer">Agent</li>
-        <li className=" cursor-pointer">Help</li>
-      </ul>
+      <div className="flex gap-16 justify-center items-center font-semibold">
+        <Link href="/" className=" text-black no-underline">
+          Home
+        </Link>
+
+        <Link href="/search" className=" text-black no-underline">
+          Search
+        </Link>
+
+        <div className=" cursor-pointer">Agent</div>
+        <div className=" cursor-pointer">Help</div>
+      </div>
       <div className="flex justify-end items-center gap-5">
         <button className="text-sky-800 font-bold py-2 px-4 rounded">
           Register
