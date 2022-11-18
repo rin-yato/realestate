@@ -33,7 +33,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between mt-14">
+        <div className="flex justify-between items-start mt-14">
           <div className="flex flex-col items-center justify-center gap-2">
             <CallIcon className="text-sky-500 text-4xl" />
             <div>
