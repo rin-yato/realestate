@@ -1,6 +1,6 @@
 import React from "react";
-import BrowseBar from "../components/BrowseBar";
-import Header from "../components/Header";
+import BrowseBar from "../components/Header/BrowseBar";
+import Header from "../components/Header/Header";
 import Map from "../components/Map";
 import PropertyCardList from "../components/PropertyCardList";
 import { Marker, Popup } from "react-map-gl";
@@ -34,7 +34,7 @@ function YatoSearch() {
                 longitude="104.8920119"
                 onClick={togglePopUp}
               >
-                <YatoButton className="shadow-xl py-1 px-2">
+                <YatoButton className="shadow-xl py-1 px-2 bg-slate-100 tracking-wide font-semibold">
                   Hotel Here
                 </YatoButton>
               </Marker>

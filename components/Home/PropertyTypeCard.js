@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function PropertyTypeCard({ title, image, imgClassName }) {
   return (
-    <div className="card hover:scale-105 active:scale-95 cursor-pointer duration-200 rounded-3xl min-h-[440px] bg-slate-50 flex flex-col overflow-hidden p-10 pt-0">
+    <div className="card group active:scale-95 cursor-pointer duration-200 rounded-3xl min-h-[440px] bg-slate-50 flex flex-col overflow-hidden p-10 pt-0">
       <div className="h-full w-full">
         <div className="h-full w-full relative">
           <Image
@@ -12,7 +12,7 @@ function PropertyTypeCard({ title, image, imgClassName }) {
             fill
             quality={80}
             sizes="fit-content"
-            className={`object-cover ${imgClassName}`}
+            className={`object-cover ${imgClassName} group-hover:scale-110 duration-300`}
           />
         </div>
       </div>

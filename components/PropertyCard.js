@@ -28,13 +28,13 @@ function PropertyCard({children}) {
           accusantium
         </p>
         <div className="flex justify-between mt-1">
-          <YatoButton className="gap-1 py-1 px-3 text-sm">
+          <YatoButton className="gap-1 py-1 px-3 text-sm bg-slate-100">
             <KingBedRoundedIcon className="text-orange-500 text-base" /> 3
           </YatoButton>
-          <YatoButton className="gap-1 py-1 px-3 text-sm">
+          <YatoButton className="gap-1 py-1 px-3 text-sm bg-slate-100">
             <ShowerRoundedIcon className="text-sky-500 text-base" /> 2
           </YatoButton>
-          <YatoButton className="gap-1 py-1 px-3 text-sm">
+          <YatoButton className="gap-1 py-1 px-3 text-sm bg-slate-100">
             <StraightenRoundedIcon className="text-green-500 text-base" /> 40x40
           </YatoButton>
         </div>

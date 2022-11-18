@@ -15,7 +15,7 @@ function Services() {
                 fill
                 quality={80}
                 sizes="fit-content"
-                className="object-cover"
+                className="object-contain"
               />
             </div>
             <div>
@@ -35,7 +35,7 @@ function Services() {
                 fill
                 quality={80}
                 sizes="fit-content"
-                className="object-cover"
+                className="object-contain"
               />
             </div>
             <div>
@@ -55,7 +55,7 @@ function Services() {
                 fill
                 quality={80}
                 sizes="fit-content"
-                className="object-cover"
+                className="object-contain"
               />
             </div>
             <div>
@@ -75,7 +75,7 @@ function Services() {
                 fill
                 quality={80}
                 sizes="fit-content"
-                className="object-cover"
+                className="object-contain"
               />
             </div>
             <div>

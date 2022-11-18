@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import YatoButton from "../RinYato/YatoButton";
-import DemoPropertyCard from "./DemoPropertyCard";
-import PropertyTypeCard from "./Home/PropertyTypeCard";
-import Services from "./Home/Services";
+import YatoButton from "../../RinYato/YatoButton";
+import DemoPropertyCard from "../DemoPropertyCard";
+import PropertyTypeCard from "./PropertyTypeCard";
+import Services from "./Services";
 
 function HomeHero() {
   return (
@@ -18,21 +18,19 @@ function HomeHero() {
             sizes="fit-content"
             className="object-cover"
           />
+          <div className="absolute bottom-0 left-0 w-full h-[65%] bg-gradient-to-t from-black to-transparent opacity-60"></div>
         </div>
-        {/* <div className="absolute top-full left-1/2 -translate-x-1/2 -translate-y-1/2">
-          <div className="flex p-1.5 gap-1.5">
-            <div className="bg-sky-500 select-none duration-300 cursor-pointer active:scale-95 hover:scale-105 text-white py-4 px-8 rounded-full text-2xl shadow-xl font-bold tracking-wide">
-              FIND YOUR DREAM HOME NOW
-            </div>
-          </div>
-        </div> */}
+        <div className="absolute top-full left-1/2 -translate-x-1/2 -translate-y-full">
+          <h1 className="text-6xl font-semibold text-white capitalize text-center">Find your perfect home</h1>
+          <YatoButton className="bg-sky-500 w-fit text-white font-semibold capitalize mx-auto mt-5 mb-10">browse now</YatoButton>
+        </div>
       </section>
       <section className="mt-20 pt-20">
         <div className="px-16">
           <h2 className="text-3xl font-semibold">
             Select the property you want
           </h2>
-          <div className="grid grid-cols-4 mt-10 gap-20">
+          <div className="grid grid-cols-4 mt-10 gap-[3%]">
             <PropertyTypeCard
               title="House"
               image="/house-nobg.png"
@@ -41,7 +39,7 @@ function HomeHero() {
             <PropertyTypeCard
               title="Condo"
               image="/condo-nobg.png"
-              imgClassName="translate-y-5 scale-110"
+              imgClassName="translate-y-5"
             />
             <PropertyTypeCard
               title="Land"
@@ -51,7 +49,7 @@ function HomeHero() {
             <PropertyTypeCard
               title="Farm"
               image="/condo-nobg.png"
-              imgClassName="translate-y-5 scale-110"
+              imgClassName="translate-y-5"
             />
           </div>
         </div>

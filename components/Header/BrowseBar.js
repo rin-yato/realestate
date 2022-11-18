@@ -1,9 +1,9 @@
 import React from "react";
-import YatoSearch from "../RinYato/YatoSearch";
-import YatoSelect from "../RinYato/YatoSelect";
-import provinces from "../provinces";
-import YatoPriceInput from "../RinYato/YatoPriceInput";
-import YatoButton from "../RinYato/YatoButton";
+import YatoSearch from "../../RinYato/YatoSearch";
+import YatoSelect from "../../RinYato/YatoSelect";
+import provinces from "../../provinces";
+import YatoPriceInput from "../../RinYato/YatoPriceInput";
+import YatoButton from "../../RinYato/YatoButton";
 import TuneRoundedIcon from "@mui/icons-material/TuneRounded";
 
 function BrowseBar() {
@@ -60,7 +60,7 @@ function BrowseBar() {
           />
         </div>
         <div className="col-span-1">
-          <YatoButton>
+          <YatoButton className="bg-slate-100">
             <TuneRoundedIcon className="" fontSize="medium" />
           </YatoButton>
         </div>

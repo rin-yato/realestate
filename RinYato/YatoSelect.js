@@ -38,7 +38,7 @@ function YatoSelect({ id, options, label, value, setValue }) {
                 animate={{ scale: 1, opacity: 1, transformOrigin: "top" }}
                 exit={ { scale: 0, opacity: 0, transformOrigin: "top" } }
                 transition={{ duration: 0.2, ease: "easeInOut" }}
-                className="absolute left-0 w-full z-50 flex flex-col gap-2 p-2 bg-slate-100 rounded-2xl max-h-72 overflow-y-auto"
+                className="absolute left-0 w-full shadow-2xl no-scroll z-50 flex flex-col gap-2 p-2 bg-slate-100 rounded-2xl max-h-72 overflow-y-auto"
               >
                 {options.map((option) => (
                   <div
