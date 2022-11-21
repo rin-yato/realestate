@@ -18,8 +18,8 @@ function DemoPropertyCard({ children }) {
         className="object-cover group-hover:scale-110 duration-500 ease-in-out"
       />
       {/* linear gradiant overlay */}
-      <div className="absolute inset-0 top-[15%] bg-gradient-to-b from-transparent to-black opacity-75 flex"></div>
-      <div className="absolute inset-0 top-[32%]">
+      <div className="absolute inset-0 top-[15%] bg-gradient-to-b from-transparent to-black opacity-75"></div>
+      <div className="absolute inset-0 flex flex-col justify-end">
         <div className="p-6 pt-16 text-white">
           <h3 className="font-semibold tracking-wide text-lg">
             TK Lane Premium Condo
