@@ -7,7 +7,7 @@ import YatoButton from "../RinYato/YatoButton";
 
 function DemoPropertyCard({ children }) {
   return (
-    <div className="group rounded-2xl relative shadow-xl overflow-hidden flex flex-col w-full min-h-[400px] border-8 border-slate-200">
+    <div className="group rounded-2xl relative shadow-xl overflow-hidden flex flex-col w-full min-h-[40vh] border-8 border-slate-200">
       <Image
         src={"/Property/1.jpeg"}
         alt="PropertyPic"
